@@ -1,9 +1,13 @@
-const numero1 = 4;
-const numero2 = 5;
+const texto = "Bem vindo"
 
-/* multiplicação */
-function multiplicacao(num1, num2) {
-    return num1 * num2;
+
+
+console.log("--- INÍCIO DO TESTE DA TURMA ---");
+console.log(""); 
+
+function mostrarMensagem(texto) {
+    console.log("Exemplo 1 -> Mensagem recebida: " + texto);
 }
 
-console.log(multiplicacao(numero1, numero2));
+mostrarMensagem("Bem-vindos ao GitHub Codespaces!");
+mostrarMensagem("Testando a minha primeira função!");
